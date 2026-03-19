@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day3-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devadharshini-SML/DailyCode_Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Devadharshini-SML/DailyCode_Javascript/issues"
+  },
+  "homepage": "https://github.com/Devadharshini-SML/DailyCode_Javascript#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

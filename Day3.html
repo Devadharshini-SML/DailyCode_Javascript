@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Hoisting</h2>
+<p>With <b>let</b>, you cannot use a variable before it is declared.</p>
+<p id="demo"></p>
+
+<script>
+try {
+  carName = "Saab";
+  let carName = "Volvo";
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err;
+}
+</script>
+
+</body>
+</html>
+
+________________________________________________________________________________________________________________________________________
+
+STRICT MODE
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>With "use strict":</h2>
+<h3>Deleting a function is not allowed.</h3>
+
+<p>Activate debugging in your browser (F12) to see the error report.</p>
+
+<script>
+"use strict";
+function x(p1, p2) {}; 
+delete x;    
+
+</script>
+
+</body>
+</html> -->
+
+
+<!-- <h1 id="demo"> Hello World</h1>
+<button onclick="change()">change</button>
+<script>
+var h1=document.getElementById("demo")
+console.log(h1.textContent)
+
+function change(){
+h1.textContent="Bye World"
+}
+</script> -->
+
+
+<p>Number 1 : <input id="num 1" placeholder="Enter Number one"></p>
+<p>Number 2 : <input id="num 2" placeholder="Enter Number two"></p>
+<button onclick="resultfunction()">Add</button>
+<p>Result : <p id="result"></p></p>
+
+<script>
+    var box1=document.getElementById("num 1")
+    var box2=document.getElementById("num 2")
+    var result=document.getElementById("result")
+
+    
+
+    function resultfunction(){
+    var box1value=Number(box1.value)
+    var box2value=Number(box2.value)
+    var total=box1value+box2value
+        result.textContent=total
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
